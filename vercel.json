@@ -11,5 +11,6 @@
       "src": "/(.*)",
       "dest": "/dist/$1"
     }
-  ]
+  ],
+  "installCommand": "pnpm install --no-frozen-lockfile"
 }
